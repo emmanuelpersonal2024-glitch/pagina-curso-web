@@ -1,0 +1,58 @@
+/* Estilos para el menú con enlaces */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Párrafo y botón */
+main p {
+    margin: 1rem 0 1.5rem;
+    color: #6b7280;
+}
+
+#btn-accion {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#btn-accion:hover {
+    background-color: #1d4ed8;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #9ca3af;
+    font-size: 0.85rem;
+}
